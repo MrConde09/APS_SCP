@@ -31,5 +31,12 @@ namespace SCP_.CATALOGOS.CLIENTES
         {
 
         }
+
+        private void menuPrincipalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 f = new Form1();
+            f.Show();
+            this.Hide();
+        }
     }
 }

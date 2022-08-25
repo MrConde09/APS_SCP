@@ -56,6 +56,7 @@ namespace SCP_.CATALOGOS.CLIENTES
             this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
+            this.menuPrincipalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -268,7 +269,8 @@ namespace SCP_.CATALOGOS.CLIENTES
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cATALOGOSToolStripMenuItem,
-            this.sALIRToolStripMenuItem});
+            this.sALIRToolStripMenuItem,
+            this.menuPrincipalToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1794, 24);
@@ -305,6 +307,13 @@ namespace SCP_.CATALOGOS.CLIENTES
             this.label10.Size = new System.Drawing.Size(356, 31);
             this.label10.TabIndex = 8;
             this.label10.Text = "FORMULARIO CLIENTES";
+            // 
+            // menuPrincipalToolStripMenuItem
+            // 
+            this.menuPrincipalToolStripMenuItem.Name = "menuPrincipalToolStripMenuItem";
+            this.menuPrincipalToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
+            this.menuPrincipalToolStripMenuItem.Text = "Menu Principal";
+            this.menuPrincipalToolStripMenuItem.Click += new System.EventHandler(this.menuPrincipalToolStripMenuItem_Click);
             // 
             // Form_Cliente
             // 
@@ -358,5 +367,6 @@ namespace SCP_.CATALOGOS.CLIENTES
         private System.Windows.Forms.ToolStripMenuItem sALIRToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ToolStripMenuItem menuPrincipalToolStripMenuItem;
     }
 }

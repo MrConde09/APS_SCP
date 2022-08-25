@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SCP_.CATALOGOS;
 
 namespace SCP_
 {
@@ -25,7 +26,9 @@ namespace SCP_
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            CATALOGOS.CLIENTES.Form_Cliente f = new CATALOGOS.CLIENTES.Form_Cliente();
+            f.Show();
+            this.Hide();
         }
     }
 }
