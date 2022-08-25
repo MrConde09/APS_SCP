@@ -46,7 +46,7 @@ namespace SCP_
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(142, 280);
+            this.button1.Location = new System.Drawing.Point(207, 280);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 31);
             this.button1.TabIndex = 1;
@@ -55,12 +55,13 @@ namespace SCP_
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(426, 280);
+            this.button2.Location = new System.Drawing.Point(485, 280);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 31);
             this.button2.TabIndex = 2;
             this.button2.Text = "SALIR";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
