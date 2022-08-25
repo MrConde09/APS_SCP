@@ -8,22 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SCP_
+namespace SCP_.CATALOGOS.CLIENTES
 {
-    public partial class Form1 : Form
+    public partial class Form_Cliente : Form
     {
-        public Form1()
+        public Form_Cliente()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Form_Cliente_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("TEST");
+
+        }
+
+        private void sALIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

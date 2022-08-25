@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CATALOGOS\CLIENTES\Form_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CATALOGOS\CLIENTES\Form_Cliente.Designer.cs">
+      <DependentUpon>Form_Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CATALOGOS\CLIENTES\Form_Cliente.resx">
+      <DependentUpon>Form_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,7 +89,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CATALOGOS\CLIENTES\" />
     <Folder Include="CATALOGOS\PAPEL\" />
     <Folder Include="CATALOGOS\PROVEEDOR\" />
     <Folder Include="REPORTES\" />
