@@ -38,5 +38,7 @@ namespace SCP_.CATALOGOS.CLIENTES
             f.Show();
             this.Hide();
         }
+
+       
     }
 }
