@@ -19,7 +19,7 @@ namespace SCP_
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("TEST")
+            MessageBox.Show("TEST");
             this.Close();
         }
     }
